@@ -1,0 +1,21 @@
+[MASTER]
+disable=
+    C0114, #Missing module docstring
+    C0115, #Missing class docstring (missing-class-docstring)
+    C0116, #Missing function or method docstring (missing-function-docstring)
+    W0603, #Using the global statement (global-statement)
+    R0903, #Too few public methods (1/2) (too-few-public-methods)
+    W0511, #TODO
+    C0209, #Disable rule consider-using-f-string
+    R0914, #Too many local variables (too-many-locals)
+    R0801, # Similar lines in 2 files
+    W1201,  # Allow lazy % formatting in logging functions
+    W1203  # Allow lazy % formatting in logging functions
+
+ignore-patterns=.*_pb2.*
+max-line-length=120
+max-args = 6
+max-positional-arguments=6
+
+[FORMAT]
+good-names=i
